@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+     <link rel="website icon" type="png"
+     href="img001.png" >
+     <p style="font-size: 40px; text-align: center;"> </p>
+   
+    
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula</title>
+    <style>
+        
+        body{
+            background-color:  aqua;
+            
+        }
+       
+       
+    
+     
+    </style>
+</head>
+<body> 
+    <h1 style="text-align: center;">
+        <img src="img001.png" alt="Description of the image">
+    </h1>
+    
+    
+
+    <h1 style="font-size: xx-large; text-align: center; color: black;">Welcome To Nebula</h1>
+    <p style="color: black;font-size: large; text-align: center;">Enter your UserName And Password</p>
+     
+     
+
+</head>
+<body>
+
+    
+	<h2 style="text-align: center; color: black;">Login</h2>
+    <h1 style="text-align: center;">
+        <button onmouseover="changebackground01()" onclick="changebackground02()"  style="text-align: center;color: black; background-color:whitesmoke; font-size: 16px; ">Change color</button>
+    </h1>
+     
+    
+   <h1 style="text-align: center;">
+         <label for="UserName" style="color: black;">UserName:</label>
+      <input style="font-size: 20px; background-color: rgb(245, 245, 245);" type="UserName" id="UserName" name="ahmed"  required>
+    </h1>
+    <h1 style="text-align: center;">
+      <label for="password" style="color: black;">Password:</label>
+      <input  style="font-size: 20px; background-color: whitesmoke;" type="password" id="password" name="ahmed2002" required>
+    </h1> 
+    <h1 style="text-align: center; ">
+        <button style="font-size: 20px; background-color: whitesmoke; color: black;" type="button" onclick="login()" >Login</button>
+        <input type="checkbox" name="agree">
+    </h1>
+     <html lang="pt-br"></html>
+     
+      
+    
+
+     <body><center>
+      <p> <b style="color: black;">Click On Link:</b> </p>
+      <a  style="color: black;" href=" https://www.google.com/?hl=fr"> https://www.google.com/?hl=fr</a>
+
+     
+     </center>
+      
+     </body>
+         
+	</form>
+    <script>
+        console.log("hello world qqqq")
+        function changebackground01(){
+            document.body.style.backgroundColor=" gray";
+        }
+        function changebackground02(){
+            document.body.style.backgroundColor=" silver ";
+        }
+        
+        function login() {
+        // Get the user's email and password
+        var UserName = document.getElementById("UserName").value;
+        var password = document.getElementById("password").value;
+        
+        if (UserName === 'ahmed' && password === '123456') {
+          
+          // Redirect the user to the dashboard
+          window.location.href = "https://flixwave.to";
+
+        } else {
+        // Display an error message (replace with your own error handling)
+        alert('Invalid email or password. Please try again.');
+        }
+      
+      
+        }
+        
+    </script>
+</body>
+</html>
+        
+        
+      
+
+    
